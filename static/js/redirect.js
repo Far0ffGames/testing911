@@ -7,10 +7,9 @@ function getParameterByName(name, url) {
     if (!results[2]) return '';
 
     var customMappings = {
-        'cosmic': 'http://cosmic-city.github.io',
+        
         'github': 'http://github.com',
-        'crazygames': 'http://www.crazygames.com',
-        // FOR SPONSORS ONLY
+        
     };
 
     if (customMappings.hasOwnProperty(results[2])) {
